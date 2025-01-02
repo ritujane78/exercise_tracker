@@ -50,6 +50,6 @@ for each in result['exercises']:
     }
     # print(sheety_config)
     sheety_response = requests.post(url=sheety_endpoint, json=sheety_config)
-    print(sheety_response.text)
+    # print(sheety_response.text)
     print("Done! Check the workout sheet.")
 
